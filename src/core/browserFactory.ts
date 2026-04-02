@@ -3,7 +3,7 @@ import {chromium, Browser, BrowserContext, Page} from "@playwright/test";
 export class BrowserFactory {
 
 static async createBrowser(): Promise<Browser> {
-    return await chromium.launch({headless: false});
+    return await chromium.launch({headless: true});
 }
 
 static async createContext(browser:Browser): Promise<BrowserContext> {
