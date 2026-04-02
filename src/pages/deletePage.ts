@@ -14,7 +14,7 @@ export class DeletePage extends BasePage {
         this.page= page; 
         this.uiActions = new UIActions(page);
         this.cartt = page.locator("//a[text() = 'Cart']");
-        this.delete = page.locator("//a[text() = 'Delete']");
+        this.delete = page.locator("//a[contains(text(),'Delete')]");
         this.logout = page.locator("//a[@id= 'logout2']");
     }
 
