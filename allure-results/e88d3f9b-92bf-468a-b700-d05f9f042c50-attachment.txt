@@ -1,0 +1,14 @@
+=== EXCEPTION OCCURED ===
+Message: locator.click: Target page, context or browser has been closed
+Call log:
+  - waiting for locator('//button[text() = \'Place Order\']')
+
+Stack: locator.click: Target page, context or browser has been closed
+Call log:
+  - waiting for locator('//button[text() = \'Place Order\']')
+
+    at UIActions.click (C:\Users\KavyaRajendran(G10XI\OneDrive - G10X Technology Private Limited\Desktop\Credo\Demoblaze_Framework\src\actions\uiActions.ts:28:40)
+    at PlaceOrder.order (C:\Users\KavyaRajendran(G10XI\OneDrive - G10X Technology Private Limited\Desktop\Credo\Demoblaze_Framework\src\pages\placeOrder.ts:37:30)
+    at C:\Users\KavyaRajendran(G10XI\OneDrive - G10X Technology Private Limited\Desktop\Credo\Demoblaze_Framework\tests\placeOrder\placeorder.spec.ts:27:26
+====
+Screenshot capture Fail

@@ -1,0 +1,5 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","7049","After login, homepage launch successfully","chromium","2026-03-16","passed","2026-03-16","Homepage Validation Tests","homepage\homepage.spec.ts","",""
+"","7381","Login with valid credentials and verify successful login","chromium","2026-03-16","passed","2026-03-16","Login Validation Tests","login\login.spec.ts","",""
+"","9528","Add products to the cart","chromium","2026-03-16","passed","2026-03-16","Homepage Validation Tests","Order validation\homepage.spec.ts","",""
+"","8426","After login, homepage launch successfully","chromium","2026-03-16","passed","2026-03-16","Homepage Validation Tests","Order validation\homepage.spec.ts","",""

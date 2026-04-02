@@ -1,0 +1,19 @@
+=== EXCEPTION OCCURED ===
+Message: locator.click: Error: strict mode violation: locator('//a[text() = \'Delete\']') resolved to 2 elements:
+    1) <a href="#" onclick="deleteItem('d2aacd83-1a3f-ba8d-27f6-7999d06fd8a7')">Delete</a> aka getByRole('link', { name: 'Delete' }).first()
+    2) <a href="#" onclick="deleteItem('a74af020-b00a-ec6e-08d5-9bc30474d77d')">Delete</a> aka getByRole('link', { name: 'Delete' }).nth(1)
+
+Call log:
+  - waiting for locator('//a[text() = \'Delete\']')
+
+Stack: locator.click: Error: strict mode violation: locator('//a[text() = \'Delete\']') resolved to 2 elements:
+    1) <a href="#" onclick="deleteItem('d2aacd83-1a3f-ba8d-27f6-7999d06fd8a7')">Delete</a> aka getByRole('link', { name: 'Delete' }).first()
+    2) <a href="#" onclick="deleteItem('a74af020-b00a-ec6e-08d5-9bc30474d77d')">Delete</a> aka getByRole('link', { name: 'Delete' }).nth(1)
+
+Call log:
+  - waiting for locator('//a[text() = \'Delete\']')
+
+    at UIActions.click (C:\Users\KavyaRajendran(G10XI\OneDrive - G10X Technology Private Limited\Desktop\Credo\Demoblaze_Framework\src\actions\uiActions.ts:28:40)
+    at DeletePage.deletefiles (C:\Users\KavyaRajendran(G10XI\OneDrive - G10X Technology Private Limited\Desktop\Credo\Demoblaze_Framework\src\pages\deletePage.ts:23:30)
+    at C:\Users\KavyaRajendran(G10XI\OneDrive - G10X Technology Private Limited\Desktop\Credo\Demoblaze_Framework\tests\delete\delete.spec.ts:24:9
+====

@@ -1,0 +1,14 @@
+=== EXCEPTION OCCURED ===
+Message: locator.click: Target page, context or browser has been closed
+Call log:
+  - waiting for locator('//a[@id = \'cartur\']')
+
+Stack: locator.click: Target page, context or browser has been closed
+Call log:
+  - waiting for locator('//a[@id = \'cartur\']')
+
+    at UIActions.click (C:\Users\KavyaRajendran(G10XI\OneDrive - G10X Technology Private Limited\Desktop\Credo\Demoblaze_Framework\src\actions\uiActions.ts:28:40)
+    at DeletePage.deletefiles (C:\Users\KavyaRajendran(G10XI\OneDrive - G10X Technology Private Limited\Desktop\Credo\Demoblaze_Framework\src\pages\deletePage.ts:22:30)
+    at C:\Users\KavyaRajendran(G10XI\OneDrive - G10X Technology Private Limited\Desktop\Credo\Demoblaze_Framework\tests\delete\delete.spec.ts:26:27
+====
+Screenshot capture Fail
